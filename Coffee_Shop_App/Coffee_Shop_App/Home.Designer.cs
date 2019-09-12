@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.CustomerInformationGroupbox = new System.Windows.Forms.GroupBox();
-            this.CustomerName = new System.Windows.Forms.Label();
-            this.ContactNumber = new System.Windows.Forms.Label();
-            this.Address = new System.Windows.Forms.Label();
-            this.Order = new System.Windows.Forms.Label();
-            this.Quantity = new System.Windows.Forms.Label();
-            this.SaveButton = new System.Windows.Forms.Button();
-            this.CustomerNameTextBox = new System.Windows.Forms.TextBox();
-            this.ContactNumberTextBox = new System.Windows.Forms.TextBox();
-            this.AddressTextBox = new System.Windows.Forms.TextBox();
-            this.QuantityTextBox = new System.Windows.Forms.TextBox();
             this.OrderComboBox = new System.Windows.Forms.ComboBox();
+            this.QuantityTextBox = new System.Windows.Forms.TextBox();
+            this.AddressTextBox = new System.Windows.Forms.TextBox();
+            this.ContactNumberTextBox = new System.Windows.Forms.TextBox();
+            this.CustomerNameTextBox = new System.Windows.Forms.TextBox();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.Quantity = new System.Windows.Forms.Label();
+            this.Order = new System.Windows.Forms.Label();
+            this.Address = new System.Windows.Forms.Label();
+            this.ContactNumber = new System.Windows.Forms.Label();
+            this.CustomerName = new System.Windows.Forms.Label();
             this.PurchaserichTextBox = new System.Windows.Forms.RichTextBox();
             this.CustomerInformationGroupbox.SuspendLayout();
             this.SuspendLayout();
@@ -64,89 +64,6 @@
             this.CustomerInformationGroupbox.TabStop = false;
             this.CustomerInformationGroupbox.Text = "Customer Information";
             // 
-            // CustomerName
-            // 
-            this.CustomerName.AutoSize = true;
-            this.CustomerName.Location = new System.Drawing.Point(17, 37);
-            this.CustomerName.Name = "CustomerName";
-            this.CustomerName.Size = new System.Drawing.Size(124, 20);
-            this.CustomerName.TabIndex = 0;
-            this.CustomerName.Text = "Customer Name";
-            // 
-            // ContactNumber
-            // 
-            this.ContactNumber.AutoSize = true;
-            this.ContactNumber.Location = new System.Drawing.Point(16, 100);
-            this.ContactNumber.Name = "ContactNumber";
-            this.ContactNumber.Size = new System.Drawing.Size(125, 20);
-            this.ContactNumber.TabIndex = 0;
-            this.ContactNumber.Text = "Contact Number";
-            // 
-            // Address
-            // 
-            this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(17, 164);
-            this.Address.Name = "Address";
-            this.Address.Size = new System.Drawing.Size(68, 20);
-            this.Address.TabIndex = 0;
-            this.Address.Text = "Address";
-            // 
-            // Order
-            // 
-            this.Order.AutoSize = true;
-            this.Order.Location = new System.Drawing.Point(17, 229);
-            this.Order.Name = "Order";
-            this.Order.Size = new System.Drawing.Size(49, 20);
-            this.Order.TabIndex = 0;
-            this.Order.Text = "Order";
-            // 
-            // Quantity
-            // 
-            this.Quantity.AutoSize = true;
-            this.Quantity.Location = new System.Drawing.Point(17, 309);
-            this.Quantity.Name = "Quantity";
-            this.Quantity.Size = new System.Drawing.Size(68, 20);
-            this.Quantity.TabIndex = 0;
-            this.Quantity.Text = "Quantity";
-            // 
-            // SaveButton
-            // 
-            this.SaveButton.Location = new System.Drawing.Point(248, 365);
-            this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(75, 32);
-            this.SaveButton.TabIndex = 1;
-            this.SaveButton.Text = "Save";
-            this.SaveButton.UseVisualStyleBackColor = true;
-            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
-            // 
-            // CustomerNameTextBox
-            // 
-            this.CustomerNameTextBox.Location = new System.Drawing.Point(199, 30);
-            this.CustomerNameTextBox.Name = "CustomerNameTextBox";
-            this.CustomerNameTextBox.Size = new System.Drawing.Size(278, 26);
-            this.CustomerNameTextBox.TabIndex = 2;
-            // 
-            // ContactNumberTextBox
-            // 
-            this.ContactNumberTextBox.Location = new System.Drawing.Point(199, 94);
-            this.ContactNumberTextBox.Name = "ContactNumberTextBox";
-            this.ContactNumberTextBox.Size = new System.Drawing.Size(278, 26);
-            this.ContactNumberTextBox.TabIndex = 2;
-            // 
-            // AddressTextBox
-            // 
-            this.AddressTextBox.Location = new System.Drawing.Point(199, 158);
-            this.AddressTextBox.Name = "AddressTextBox";
-            this.AddressTextBox.Size = new System.Drawing.Size(278, 26);
-            this.AddressTextBox.TabIndex = 2;
-            // 
-            // QuantityTextBox
-            // 
-            this.QuantityTextBox.Location = new System.Drawing.Point(199, 303);
-            this.QuantityTextBox.Name = "QuantityTextBox";
-            this.QuantityTextBox.Size = new System.Drawing.Size(278, 26);
-            this.QuantityTextBox.TabIndex = 2;
-            // 
             // OrderComboBox
             // 
             this.OrderComboBox.FormattingEnabled = true;
@@ -160,6 +77,89 @@
             this.OrderComboBox.Size = new System.Drawing.Size(279, 28);
             this.OrderComboBox.TabIndex = 3;
             this.OrderComboBox.Text = "Select An Item";
+            // 
+            // QuantityTextBox
+            // 
+            this.QuantityTextBox.Location = new System.Drawing.Point(199, 303);
+            this.QuantityTextBox.Name = "QuantityTextBox";
+            this.QuantityTextBox.Size = new System.Drawing.Size(278, 26);
+            this.QuantityTextBox.TabIndex = 2;
+            // 
+            // AddressTextBox
+            // 
+            this.AddressTextBox.Location = new System.Drawing.Point(199, 158);
+            this.AddressTextBox.Name = "AddressTextBox";
+            this.AddressTextBox.Size = new System.Drawing.Size(278, 26);
+            this.AddressTextBox.TabIndex = 2;
+            // 
+            // ContactNumberTextBox
+            // 
+            this.ContactNumberTextBox.Location = new System.Drawing.Point(199, 94);
+            this.ContactNumberTextBox.Name = "ContactNumberTextBox";
+            this.ContactNumberTextBox.Size = new System.Drawing.Size(278, 26);
+            this.ContactNumberTextBox.TabIndex = 2;
+            // 
+            // CustomerNameTextBox
+            // 
+            this.CustomerNameTextBox.Location = new System.Drawing.Point(199, 30);
+            this.CustomerNameTextBox.Name = "CustomerNameTextBox";
+            this.CustomerNameTextBox.Size = new System.Drawing.Size(278, 26);
+            this.CustomerNameTextBox.TabIndex = 2;
+            // 
+            // SaveButton
+            // 
+            this.SaveButton.Location = new System.Drawing.Point(199, 365);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(75, 32);
+            this.SaveButton.TabIndex = 1;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
+            // Quantity
+            // 
+            this.Quantity.AutoSize = true;
+            this.Quantity.Location = new System.Drawing.Point(17, 309);
+            this.Quantity.Name = "Quantity";
+            this.Quantity.Size = new System.Drawing.Size(68, 20);
+            this.Quantity.TabIndex = 0;
+            this.Quantity.Text = "Quantity";
+            // 
+            // Order
+            // 
+            this.Order.AutoSize = true;
+            this.Order.Location = new System.Drawing.Point(17, 229);
+            this.Order.Name = "Order";
+            this.Order.Size = new System.Drawing.Size(49, 20);
+            this.Order.TabIndex = 0;
+            this.Order.Text = "Order";
+            // 
+            // Address
+            // 
+            this.Address.AutoSize = true;
+            this.Address.Location = new System.Drawing.Point(17, 164);
+            this.Address.Name = "Address";
+            this.Address.Size = new System.Drawing.Size(68, 20);
+            this.Address.TabIndex = 0;
+            this.Address.Text = "Address";
+            // 
+            // ContactNumber
+            // 
+            this.ContactNumber.AutoSize = true;
+            this.ContactNumber.Location = new System.Drawing.Point(16, 100);
+            this.ContactNumber.Name = "ContactNumber";
+            this.ContactNumber.Size = new System.Drawing.Size(125, 20);
+            this.ContactNumber.TabIndex = 0;
+            this.ContactNumber.Text = "Contact Number";
+            // 
+            // CustomerName
+            // 
+            this.CustomerName.AutoSize = true;
+            this.CustomerName.Location = new System.Drawing.Point(17, 37);
+            this.CustomerName.Name = "CustomerName";
+            this.CustomerName.Size = new System.Drawing.Size(124, 20);
+            this.CustomerName.TabIndex = 0;
+            this.CustomerName.Text = "Customer Name";
             // 
             // PurchaserichTextBox
             // 
