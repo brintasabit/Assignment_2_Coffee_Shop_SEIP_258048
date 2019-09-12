@@ -26,6 +26,7 @@ namespace Coffee_Shop_App
             int quantity = Convert.ToInt32(QuantityTextBox.Text);
             MessageBox.Show("Name: " + customerName + "\nContact: " + contactNumber + "\nAddress: " + address + "\nOrder: " + order + "\nQuantity: " + quantity);
             //PurchaserichTextBox.Text=MessageBox.Show
+            PurchaserichTextBox.AppendText("\nName: " + customerName + "\nContact: " + contactNumber + "\nAddress: " + address + "\nOrder: " + order + "\nQuantity: " + quantity);
         }
     }
 }
